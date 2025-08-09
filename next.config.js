@@ -1,3 +1,4 @@
+
 module.exports = {
   output: 'standalone',
   typescript: {
@@ -5,8 +6,5 @@ module.exports = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  experimental: {
-    // Configuración mínima
   }
 }

@@ -1,5 +1,6 @@
+# netlify.toml
 [build]
-  command = "bash build.sh || true"
+  command = "npm run build:force || true"
   publish = ".next"
   [functions]
     directory = ".next/server"
@@ -7,5 +8,3 @@
 [context.production.environment]
   NEXT_PUBLIC_IGNORE_BUILD_ERRORS = "true"
   NODE_OPTIONS = "--openssl-legacy-provider"
-  NEXT_TELEMETRY_DISABLED = "1"
-  CI = "false"
