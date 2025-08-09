@@ -7,7 +7,6 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   experimental: {
-    serverActions: true,
     optimizePackageImports: ['@mui/material']
   }
 }
