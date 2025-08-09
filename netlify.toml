@@ -8,3 +8,4 @@
 [context.production.environment]
   NEXT_PUBLIC_IGNORE_BUILD_ERRORS = "true"
   NODE_OPTIONS = "--openssl-legacy-provider"
+  NEXT_TELEMETRY_DISABLED = "1"
