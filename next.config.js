@@ -9,5 +9,7 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   // Configuración para manejar fallos en SSG
-
+  experimental: {
+    missingSuspenseWithCSRBailout: false
+  }
 }

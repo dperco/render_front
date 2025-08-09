@@ -1,7 +1,6 @@
 
-
 [build]
-  command = "npm run build || exit 0"
+  command = "npm run build:netlify"
   publish = ".next"
   [functions]
     directory = ".next/server"
