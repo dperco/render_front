@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start ",
     "lint": "next lint",
-    "build:netlify": "next build --no-lint --no-type-check"
+    "build:netlify": "next build --no-lint"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",

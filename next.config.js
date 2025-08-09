@@ -5,8 +5,5 @@ module.exports = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  experimental: {
-    optimizePackageImports: ['@mui/material']
   }
 }
