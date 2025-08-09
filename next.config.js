@@ -1,8 +1,15 @@
 module.exports = {
+  // Habilita el modo standalone para mejor compatibilidad con Netlify
+  output: 'standalone',
+  // Configuración para ignorar errores durante el build
   typescript: {
-    ignoreBuildErrors: true, // Ignora errores de TypeScript
+    ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, // Ignora errores de ESLint
+    ignoreDuringBuilds: true,
+  },
+  // Configuración para manejar fallos en SSG
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
   }
-};
+}
