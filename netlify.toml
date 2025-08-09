@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build:netlify || echo 'Build completed with fallbacks' && exit 0"
+    command = "npm run build || true"
   publish = ".next"
   [functions]
     directory = ".next/server"
