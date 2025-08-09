@@ -1,5 +1,5 @@
 [build]
-    command = "npm run build || true"
+  command = "bash build.sh || true"
   publish = ".next"
   [functions]
     directory = ".next/server"

@@ -5,5 +5,8 @@ module.exports = {
   },
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  experimental: {
+    // Configuración mínima
   }
 }
